@@ -56,7 +56,7 @@ const App = () => {
       
       </div>
 
-      <NewsCards articles={newsArticles} activeArticle={activeArticle} />
+      <NewsCards articles={ newsArticles} activeArticle={activeArticle} />
       
       {!newsArticles.length ? (
         <div className={classes.footer}>
