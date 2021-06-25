@@ -3,9 +3,11 @@ import { Typography } from '@material-ui/core';
 import wordsToNumbers from 'words-to-numbers';
 import alanBtn from '@alan-ai/alan-sdk-web';
 
+
 //import logo from './images/logo.png';
 import { NewsCards } from './components';
 import useStyles from './styles';
+import alanBtn from '@alan-ai/alan-sdk-web';
 
 const App = () => {
   const [activeArticle, setActiveArticle] = useState(0);
